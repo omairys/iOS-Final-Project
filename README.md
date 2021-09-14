@@ -13,13 +13,13 @@ Advanced iOS Application Development
 
 6. After you click the "add" button, the app go to the edit page. "edit page" has the following field 
 
-  name  String
-  birthday  Date from date picker
-  gender  String  from picker or tableview
-  userImage from image picker (from chapter 30) 
-  country from another table view 
-  latitude    
-  longitude
+  - name  String
+  - birthday  Date from date picker
+  - gender  String  from picker or tableview
+  - userImage from image picker (from chapter 30) 
+  - country from another table view 
+  - latitude    
+  - longitude
 
 7. after saving, the userImage, name, birthday, gender, country can show on the table view.
 
