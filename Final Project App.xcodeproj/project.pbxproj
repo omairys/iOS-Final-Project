@@ -16,10 +16,12 @@
 		EB560EE5270133DA004C4343 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB560EE4270133DA004C4343 /* HudView.swift */; };
 		EBAA1BE526F123870030ECE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1BE426F123870030ECE6 /* AppDelegate.swift */; };
 		EBAA1BE726F123870030ECE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1BE626F123870030ECE6 /* SceneDelegate.swift */; };
-		EBAA1BE926F123870030ECE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1BE826F123870030ECE6 /* ViewController.swift */; };
+		EBAA1BE926F123870030ECE6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1BE826F123870030ECE6 /* FirstViewController.swift */; };
 		EBAA1BEC26F123870030ECE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1BEA26F123870030ECE6 /* Main.storyboard */; };
 		EBAA1BEE26F123870030ECE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1BED26F123870030ECE6 /* Assets.xcassets */; };
 		EBAA1BF126F123870030ECE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1BEF26F123870030ECE6 /* LaunchScreen.storyboard */; };
+		EBB2F3AE2701EEE80062CD1D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB2F3AD2701EEE80062CD1D /* ListViewController.swift */; };
+		EBB2F3B02701EF0A0062CD1D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB2F3AF2701EF0A0062CD1D /* MapViewController.swift */; };
 		EBCF9C7D26FD640B008BC112 /* GenderPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF9C7C26FD640B008BC112 /* GenderPickerViewController.swift */; };
 		EBCF9C7F26FD66D2008BC112 /* CountryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF9C7E26FD66D2008BC112 /* CountryPickerViewController.swift */; };
 /* End PBXBuildFile section */
@@ -35,11 +37,13 @@
 		EBAA1BE126F123870030ECE6 /* Final Project App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBAA1BE426F123870030ECE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBAA1BE626F123870030ECE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EBAA1BE826F123870030ECE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBAA1BE826F123870030ECE6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		EBAA1BEB26F123870030ECE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBAA1BED26F123870030ECE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBAA1BF026F123870030ECE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBAA1BF226F123870030ECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB2F3AD2701EEE80062CD1D /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EBB2F3AF2701EF0A0062CD1D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		EBCF9C7C26FD640B008BC112 /* GenderPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPickerViewController.swift; sourceTree = "<group>"; };
 		EBCF9C7E26FD66D2008BC112 /* CountryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,22 +88,40 @@
 			isa = PBXGroup;
 			children = (
 				EB210FAD26FCCE08006DFC07 /* Model */,
-				EBAA1BE426F123870030ECE6 /* AppDelegate.swift */,
-				EBAA1BE626F123870030ECE6 /* SceneDelegate.swift */,
-				EBAA1BE826F123870030ECE6 /* ViewController.swift */,
-				EB210FA526FC1310006DFC07 /* LocationDetailsViewController.swift */,
-				EBCF9C7C26FD640B008BC112 /* GenderPickerViewController.swift */,
-				EBCF9C7E26FD66D2008BC112 /* CountryPickerViewController.swift */,
+				EBB2F3AC2701EE770062CD1D /* Delegate */,
+				EBB2F3AB2701EE190062CD1D /* ViewControllers */,
 				EBAA1BEA26F123870030ECE6 /* Main.storyboard */,
-				EBAA1BED26F123870030ECE6 /* Assets.xcassets */,
 				EBAA1BEF26F123870030ECE6 /* LaunchScreen.storyboard */,
+				EBAA1BED26F123870030ECE6 /* Assets.xcassets */,
 				EBAA1BF226F123870030ECE6 /* Info.plist */,
 				EB210FA226FC00F6006DFC07 /* LocationData.xcdatamodeld */,
-				EB210FA726FCBFDF006DFC07 /* MyImagePickerController.swift */,
 				EB210FB626FCD0D1006DFC07 /* Funtions.swift */,
 				EB560EE4270133DA004C4343 /* HudView.swift */,
 			);
 			path = "Final Project App";
+			sourceTree = "<group>";
+		};
+		EBB2F3AB2701EE190062CD1D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBCF9C7E26FD66D2008BC112 /* CountryPickerViewController.swift */,
+				EBCF9C7C26FD640B008BC112 /* GenderPickerViewController.swift */,
+				EB210FA726FCBFDF006DFC07 /* MyImagePickerController.swift */,
+				EB210FA526FC1310006DFC07 /* LocationDetailsViewController.swift */,
+				EBAA1BE826F123870030ECE6 /* FirstViewController.swift */,
+				EBB2F3AD2701EEE80062CD1D /* ListViewController.swift */,
+				EBB2F3AF2701EF0A0062CD1D /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EBB2F3AC2701EE770062CD1D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				EBAA1BE426F123870030ECE6 /* AppDelegate.swift */,
+				EBAA1BE626F123870030ECE6 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +197,7 @@
 				EB210FB526FCD06A006DFC07 /* Location+CoreDataProperties.swift in Sources */,
 				EB210FB426FCD06A006DFC07 /* Location+CoreDataClass.swift in Sources */,
 				EB210FA426FC00F6006DFC07 /* LocationData.xcdatamodeld in Sources */,
-				EBAA1BE926F123870030ECE6 /* ViewController.swift in Sources */,
+				EBAA1BE926F123870030ECE6 /* FirstViewController.swift in Sources */,
 				EBCF9C7F26FD66D2008BC112 /* CountryPickerViewController.swift in Sources */,
 				EBAA1BE526F123870030ECE6 /* AppDelegate.swift in Sources */,
 				EBAA1BE726F123870030ECE6 /* SceneDelegate.swift in Sources */,
@@ -183,7 +205,9 @@
 				EB560EE5270133DA004C4343 /* HudView.swift in Sources */,
 				EB210FA826FCBFDF006DFC07 /* MyImagePickerController.swift in Sources */,
 				EBCF9C7D26FD640B008BC112 /* GenderPickerViewController.swift in Sources */,
+				EBB2F3AE2701EEE80062CD1D /* ListViewController.swift in Sources */,
 				EB210FB726FCD0D1006DFC07 /* Funtions.swift in Sources */,
+				EBB2F3B02701EF0A0062CD1D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

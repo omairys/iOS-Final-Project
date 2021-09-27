@@ -59,8 +59,10 @@ class LocationDetailsViewController: UITableViewController {
             }
     }
     // MARK: - Actions
+    
+
     @IBAction func cancel(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
     }
     
     @IBAction func genderPickerDidPickGender(_ segue: UIStoryboardSegue) {
@@ -119,7 +121,7 @@ class LocationDetailsViewController: UITableViewController {
             try managedObjectContext.save()
             afterDelay(0.6) {
                 hudView.hide()
-                self.dismiss(animated: true, completion: nil)
+                self.navigationController?.popViewController(animated: true)
             }
         } catch {
             fatalCoreDataError(error)
