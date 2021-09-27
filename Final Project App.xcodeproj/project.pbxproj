@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB210FA426FC00F6006DFC07 /* LocationData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB210FA226FC00F6006DFC07 /* LocationData.xcdatamodeld */; };
+		EB210FA626FC1310006DFC07 /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB210FA526FC1310006DFC07 /* LocationDetailsViewController.swift */; };
+		EB210FA826FCBFDF006DFC07 /* MyImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB210FA726FCBFDF006DFC07 /* MyImagePickerController.swift */; };
+		EB210FB426FCD06A006DFC07 /* Location+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB210FB226FCD06A006DFC07 /* Location+CoreDataClass.swift */; };
+		EB210FB526FCD06A006DFC07 /* Location+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB210FB326FCD06A006DFC07 /* Location+CoreDataProperties.swift */; };
+		EB210FB726FCD0D1006DFC07 /* Funtions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB210FB626FCD0D1006DFC07 /* Funtions.swift */; };
+		EB560EE5270133DA004C4343 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB560EE4270133DA004C4343 /* HudView.swift */; };
 		EBAA1BE526F123870030ECE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1BE426F123870030ECE6 /* AppDelegate.swift */; };
 		EBAA1BE726F123870030ECE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1BE626F123870030ECE6 /* SceneDelegate.swift */; };
 		EBAA1BE926F123870030ECE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAA1BE826F123870030ECE6 /* ViewController.swift */; };
 		EBAA1BEC26F123870030ECE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1BEA26F123870030ECE6 /* Main.storyboard */; };
 		EBAA1BEE26F123870030ECE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1BED26F123870030ECE6 /* Assets.xcassets */; };
 		EBAA1BF126F123870030ECE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAA1BEF26F123870030ECE6 /* LaunchScreen.storyboard */; };
+		EBCF9C7D26FD640B008BC112 /* GenderPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF9C7C26FD640B008BC112 /* GenderPickerViewController.swift */; };
+		EBCF9C7F26FD66D2008BC112 /* CountryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCF9C7E26FD66D2008BC112 /* CountryPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB210FA326FC00F6006DFC07 /* LocationData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocationData.xcdatamodel; sourceTree = "<group>"; };
+		EB210FA526FC1310006DFC07 /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
+		EB210FA726FCBFDF006DFC07 /* MyImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImagePickerController.swift; sourceTree = "<group>"; };
+		EB210FB226FCD06A006DFC07 /* Location+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EB210FB326FCD06A006DFC07 /* Location+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EB210FB626FCD0D1006DFC07 /* Funtions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funtions.swift; sourceTree = "<group>"; };
+		EB560EE4270133DA004C4343 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
 		EBAA1BE126F123870030ECE6 /* Final Project App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBAA1BE426F123870030ECE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBAA1BE626F123870030ECE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,8 @@
 		EBAA1BED26F123870030ECE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBAA1BF026F123870030ECE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBAA1BF226F123870030ECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCF9C7C26FD640B008BC112 /* GenderPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderPickerViewController.swift; sourceTree = "<group>"; };
+		EBCF9C7E26FD66D2008BC112 /* CountryPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB210FAD26FCCE08006DFC07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB210FB226FCD06A006DFC07 /* Location+CoreDataClass.swift */,
+				EB210FB326FCD06A006DFC07 /* Location+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EBAA1BD826F123870030ECE6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +83,21 @@
 		EBAA1BE326F123870030ECE6 /* Final Project App */ = {
 			isa = PBXGroup;
 			children = (
+				EB210FAD26FCCE08006DFC07 /* Model */,
 				EBAA1BE426F123870030ECE6 /* AppDelegate.swift */,
 				EBAA1BE626F123870030ECE6 /* SceneDelegate.swift */,
 				EBAA1BE826F123870030ECE6 /* ViewController.swift */,
+				EB210FA526FC1310006DFC07 /* LocationDetailsViewController.swift */,
+				EBCF9C7C26FD640B008BC112 /* GenderPickerViewController.swift */,
+				EBCF9C7E26FD66D2008BC112 /* CountryPickerViewController.swift */,
 				EBAA1BEA26F123870030ECE6 /* Main.storyboard */,
 				EBAA1BED26F123870030ECE6 /* Assets.xcassets */,
 				EBAA1BEF26F123870030ECE6 /* LaunchScreen.storyboard */,
 				EBAA1BF226F123870030ECE6 /* Info.plist */,
+				EB210FA226FC00F6006DFC07 /* LocationData.xcdatamodeld */,
+				EB210FA726FCBFDF006DFC07 /* MyImagePickerController.swift */,
+				EB210FB626FCD0D1006DFC07 /* Funtions.swift */,
+				EB560EE4270133DA004C4343 /* HudView.swift */,
 			);
 			path = "Final Project App";
 			sourceTree = "<group>";
@@ -137,9 +172,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB210FB526FCD06A006DFC07 /* Location+CoreDataProperties.swift in Sources */,
+				EB210FB426FCD06A006DFC07 /* Location+CoreDataClass.swift in Sources */,
+				EB210FA426FC00F6006DFC07 /* LocationData.xcdatamodeld in Sources */,
 				EBAA1BE926F123870030ECE6 /* ViewController.swift in Sources */,
+				EBCF9C7F26FD66D2008BC112 /* CountryPickerViewController.swift in Sources */,
 				EBAA1BE526F123870030ECE6 /* AppDelegate.swift in Sources */,
 				EBAA1BE726F123870030ECE6 /* SceneDelegate.swift in Sources */,
+				EB210FA626FC1310006DFC07 /* LocationDetailsViewController.swift in Sources */,
+				EB560EE5270133DA004C4343 /* HudView.swift in Sources */,
+				EB210FA826FCBFDF006DFC07 /* MyImagePickerController.swift in Sources */,
+				EBCF9C7D26FD640B008BC112 /* GenderPickerViewController.swift in Sources */,
+				EB210FB726FCD0D1006DFC07 /* Funtions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +385,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB210FA226FC00F6006DFC07 /* LocationData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB210FA326FC00F6006DFC07 /* LocationData.xcdatamodel */,
+			);
+			currentVersion = EB210FA326FC00F6006DFC07 /* LocationData.xcdatamodel */;
+			path = LocationData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EBAA1BD926F123870030ECE6 /* Project object */;
 }
